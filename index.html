@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="wrap">
+
+    <div class="imagem">
+        <img src="formulario.svg" alt="imagem de uma mulher com um ícone de mapa.">
+    </div>
+    <div class="cont-form">
+        <h2>Preencha seu endereço</h2>
+        <div><hr></div>
+        <form class="form">
+            <div class="formulario">
+                <label class="nomes">CEP</label>
+                <input type="text" id="cep" class="dados" placeholder="Ex:01001-000" onblur="obterEndereco()">
+                <label class="nomes">Logradouro</label>
+                <input type="text" id="logradouro" class="dados">
+                <label class="nomes">Número</label>
+                <input type="text" id="numero" class="dados">
+                <label class="nomes">Bairro</label>
+                <input type="text" id="bairro" class="dados">
+                <label class="nomes">Cidade</label>
+                <input type="text" id="localidade" class="dados">
+                <label class="nomes">UF</label>
+                <input type="text" id="uf" class="dados">
+                <button class="botao" id="botao">
+                    PRONTO!
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>
