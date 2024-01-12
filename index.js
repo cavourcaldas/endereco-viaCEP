@@ -4,20 +4,6 @@ let bairro = document.getElementById("bairro")
 let cidade = document.getElementById("cidade")
 let uf = document.getElementById("uf")
 
-let json = {
-    cep: "64202-205",
-    logradouro: "Rua Tabajara",
-    complemento: "lado ímpar",
-    bairro: "Nossa Senhora de Fátima",
-    localidade: "Parnaíba",
-    uf: "PI",
-    ibge: "3550308",
-    gia: "1004",
-    ddd: "11",
-    siafi: "7107"
-
-}
-
 function obterEndereco () {
 
     const CEP = cep.value;
@@ -33,4 +19,3 @@ function obterEndereco () {
     )
 }
 
-   
